@@ -71,7 +71,21 @@ nav{
 
 .brand-text {
     text-align: center;
+
+    /* Welcome section styling */
 }
+
+#Welcome{
+    text-align:center;
+    padding:auto;
+    margin:auto;
+    border: 2px solid white;
+
+}
+
+
+
+
 
 
 
