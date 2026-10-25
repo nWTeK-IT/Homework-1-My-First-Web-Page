@@ -102,6 +102,12 @@ nav{
     
 }
 
+.site-header nav a:hover {
+    color: #9b1c31;
+    transition: color 0.2s ease;
+}
+
+
 
 
 
