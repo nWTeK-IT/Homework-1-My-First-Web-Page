@@ -1,9 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.cdnfonts.com/css/death-note-font');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 
 /* Style all text using the Typewrite class */
 .Typewrite {
-    font-family:georgia, 'Times New Roman', Times, serif;
+   font-family: 'EB Garamond', serif;
     color:white
 
 }
@@ -13,7 +14,7 @@ h2.Typewrite,
 h1.Typewrite,
 h3.Typewrite
  { 
-    font-family:'UnifrakturMaguntia', serif;
+    font-family: 'Death Note Font', sans-serif;
     color:white;    
    
     }
@@ -24,7 +25,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif
+   font-family: 'Death Note Font', sans-serif;
 }
 
 
@@ -62,11 +63,17 @@ nav{
 }
 
 .site-header{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items:center;
-    justify-content:space-between;
     gap:20px;
+    padding: 20px 40px;
+    border: 2px solid white;
 
+}
+
+.logo-home {
+    justify-self: start;
 }
 
 .brand-text {
@@ -75,12 +82,25 @@ nav{
     /* Welcome section styling */
 }
 
+.site-header nav {
+    justify-self: end;
+}
+
 #Welcome{
     text-align:center;
     padding:auto;
     margin:auto;
     border: 2px solid white;
 
+}
+
+.Kira-gif {
+    display:block;
+    margin:auto;
+    padding:auto;
+    border: 2px solid white
+    ;
+    
 }
 
 
